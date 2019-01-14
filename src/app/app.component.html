@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <h1>Items's List</h1>
+  <div class="AddItem">
+    <input [(ngModel)]= "newitem" #ctrl="ngModel" placeholder="Add item" class="Addtext">
+    <button (click)="pushitem()">Add</button>
+    <ul>
+      <li *ngFor = "let i of items; let ind = index">
+        
+        {{i}}
+        <span (click)="removeitem(ind)">x</span>
+      </li>
+      
+    </ul>
+  </div>
+</div>

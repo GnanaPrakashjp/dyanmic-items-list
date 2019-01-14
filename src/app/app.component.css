@@ -1,0 +1,44 @@
+.container{
+    width:500px;
+    margin: 10px;
+    text-align: center;
+    margin:0 auto;
+    border: 2px solid darkgray;
+    border-bottom: 0px;
+}
+h1{
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    margin-top: 0px;
+    padding:40px;
+   
+}
+.AddItem{
+    text-align: center;
+    background-color:white;
+    color:darkgray;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    vertical-align: top;
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-left: -40px;
+}
+li{
+    background-color:lightgray;
+    margin-left: 0px;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 1px;
+}
+span{
+    cursor: pointer;
+    float: right;
+    position: relative;
+}
+
